@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		<link type="text/css" href="consultation.css" rel="stylesheet">
+		<title>Consultation Booking</title>
+	</head>
+	
+	<body>
+		<section id="content">
+			<div class="row">
+				<div id="right" class="column">
+					<form method="post" action="try.php" id="register" class="card">
+						<div class="card-content">
+							<h3 id="form-heading"><center><u>Complete the form below to<br> schedule consultation time.</u></center></h3>
+							<p><center><font color="red">*required</font></center></p><br>
+								<div class="row">
+									<div class="input-container">
+										<span class="asterisk_input"><label class="hint">ID Number</label></span>
+										<input type="text" id="ID" name="ID" minlength="7" required>
+									</div>
+								</div>
+							
+							<br><br><fieldset class="row">
+								<div class="column">
+									<div class="input-container">
+										<span class="asterisk_input"><label class="hint">First name </label></span>
+										<input type="text" id="first_name" name="first_name" minlength="3" required>
+									</div>
+								</div>								
+								<div class="column">
+									<div class="input-container">
+										<span class="asterisk_input"><label class="hint">Last name </label></span>
+										<input type="text" id="last_name" name="last_name" minlength="3" required>
+									</div>
+								</div>
+							</fieldset>
+							
+							<fieldset class="row">
+								<div class="column">
+									<div class="input-container">
+										<span class="asterisk_input"><label class="hint">Date </label></span>
+										<input type="date" id="Date" name="Date" required>
+									</div>
+								</div>
+								<div class="column">
+									<div class="input-container">
+										<span class="asterisk_input"><label class="hint">Time </label></span>
+										<input type="time" id="Time" name="Time" required>
+									</div>
+								</div>
+							</fieldset>
+							
+							<fieldset class="row"><center>
+								<div class="row">
+									<div class="input-container">
+										<span class="asterisk_input"><label class="hint">&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp Reason for Consultation </label></span>
+										<input type="text" id="ROC" name="ROC" required>
+									</div>
+								</div>
+							</fieldset></center>
+							
+							<div class="row">
+								<div class="input-container">
+									<span class="asterisk_input"><label class="hint">Contact Email </label></span>
+									<input type="text" id="Cemail" name="Cemail" minlength="7" required>
+								</div>
+							</div>
+								
+							<br><br><div class="row">
+								<div class="input-container">
+									<span class="asterisk_input"><label class="hint">Lecturer's Email </label></span>
+									<input type="text" id="Lemail" name="Lemail" minlength="7" required>
+								</div>
+							</div>
+							
+							<br><br><div class="wrapButton">
+								<input id="submit" name="submit" type="submit" class="raised-button" value="Book Consultation"/>
+								<!--button type="submit" class="raised-button">Book Consultation</button-->
+							</div>
+						</div>
+					</form>
+				</div>
+			</div>
+		</section>
+	</body>
+</html>

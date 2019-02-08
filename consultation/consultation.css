@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700,800');
+
+body, html {
+    font-size: 100%;
+    height: 100%;
+}
+
+h1, h2, h3, h4, h5,
+h6, span, section, div, label,
+input, button, body, html, a, ul , li,
+fieldset, i {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    border: none;
+}
+
+
+body {
+    font-family: 'Open Sans', sans-serif;
+	background-image: url(logo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+}
+
+#img-caption {
+    font-weight: 700;
+    font-size: 1.75em;
+	font-family: sans-serif;
+}
+
+.column {
+    width: 50%;
+    float: left;
+}
+
+.row::after {
+    content: "";
+    display: table;
+    clear: both;
+	width: 10px;
+}
+
+#ROC {
+	width: 60%;
+	height: 120px;
+}
+
+
+#left {
+    width: 40%;
+    text-align: center;
+    position: relative;
+}
+
+#register {
+    margin: 10% auto;
+}
+
+#right {
+    width: 60%;
+}
+
+fieldset {
+    margin-bottom: 30px;
+	width: 100%;
+}
+
+
+#form-heading {
+    margin-bottom: 30px;
+}
+
+.card {
+    border-radius: 3px;
+    box-shadow: 0px 2px 4px rgba(116, 116, 116, 0.251);
+    background-color: white;
+}
+
+.card-content {
+    padding: 30px 80px;
+    position: relative;
+}
+
+.card-header {
+    padding: 20px 40px;
+    text-align: center;
+}
+
+.input-container {
+    position: relative;
+}
+
+.hint {
+    position: absolute;
+    top: -12px;
+    left: 10px;
+    background-color: white;
+    padding: 2px;
+    color: #868686;
+}
+
+button[type="submit"] {
+    width: 120px;
+    height: 50px;
+    background-color: #3e49eb;
+    border-radius: 5px;
+    color: white;
+    font-weight: 400;
+    margin: 0 auto;
+}
+
+.wrapButton {
+    text-align: center;
+}
+
+
+button[type="submit"]:hover {
+    box-shadow: 0px 2px 3px #c0c0c0;
+    cursor: pointer;
+}
+
+.circle-crop {
+    width: 120px;
+    height: 120px;
+    border-radius: 100%;
+    background: #eee no-repeat center;
+    background-size: cover;
+    margin: 0 auto;
+    box-shadow: 0px 2px 5px #74747450;
+}
+
+
+input[type="radio"]{
+    width: 20px;
+}
+
+input {
+    border: 2px solid #e4e4e4;
+    border-radius: 4px;
+    padding: 15px;
+    width: 80%;
+}
+
+input:focus {
+    border: 2px solid #3e49eb;
+}
+
+
+.asterisk_input:after {
+content:" *"; 
+color: #e32;
+position: absolute; 
+margin: 0px 0px 0px -20px; 
+font-size: xx-large; 
+padding: 0 5px 0 0; 
+}
